@@ -27,7 +27,6 @@
   - [Install Java 21 LTS](#install-java-21-lts)
   - [Install Maven Dependencies](#install-maven-dependencies)
 - [Running](#running)
-- [Database Configuration](#database-configuration)
 - [API Usage Examples](#api-usage-examples)
 - [License](#license)
 
@@ -97,3 +96,39 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/caiogomesbrayner).
 1. Run the following command in the project root:
 ```bash
 mvn clean install
+```
+## Running
+
+1. Run the project command:
+```bash
+  mvn spring-boot:run
+```
+
+## Api Usage Examples
+
+1. Access the console
+- Login
+ - Driver Class = org.h2.Driver
+ - JDBC URL = jdbc:h2:mem:testdb
+ - User Name =sa
+ - password=
+
+2. http://localhost:8080/users
+
+3. http://localhost:8080/categories
+
+4. http://localhost:8080/orders
+
+5. http://localhost:8080/products
+
+6. http://localhost:8080/users/{id}
+
+7. http://localhost:8080/categories/{id}
+
+8. http://localhost:8080/orders/{id}
+
+9. http://localhost:8080/products/{id}
+ 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.

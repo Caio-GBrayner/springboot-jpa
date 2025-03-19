@@ -28,6 +28,7 @@
   - [Instale Spring Tool Suite](#instale-spring-tool-suite)
   - [Instale Java 21 LTS ](#instale-java-21)
   - [Instale Maven Dependencies](#instale-maven-dependencies)
+- [API Usage Examples](#api-usage-examples)
 - [Running](#running)
 - [License](#license)
 
@@ -87,7 +88,7 @@ Conecte-se ao meu [LinkedIn](https://www.linkedin.com/in/caiogomesbrayner).
 1. Baixe o Spring Tool Suite [aqui](https://spring.io/tools).
 2. Siga as instruções de instalação para o seu sistema operacional.
 
-### <a name="install-java-21"></a> Instale Java 21 LTS
+### <a name="install-java-21"></a> Instale Java 21
 
 1. Baixe o JDK 21 [aqui](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html).
 2. Configure a variável de ambiente `JAVA_HOME`.
@@ -99,13 +100,38 @@ Conecte-se ao meu [LinkedIn](https://www.linkedin.com/in/caiogomesbrayner).
 mvn clean install
 ```
 
-## <a name="running"></a> Executando
+## <a name="running"></a> Running
 
 1. Execute o projeto com o comando:
    ```bash
    mvn spring-boot:run
    ```
 
-## <a name="license"></a> Licença
+## Api Usage Examples
+
+1. Acesso ao console
+- Login
+ - Driver Class = org.h2.Driver
+ - JDBC URL = jdbc:h2:mem:testdb
+ - User Name =sa
+ - password=
+
+2. http://localhost:8080/users
+
+3. http://localhost:8080/categories
+
+4. http://localhost:8080/orders
+
+5. http://localhost:8080/products
+
+6. http://localhost:8080/users/{id}
+
+7. http://localhost:8080/categories/{id}
+
+8. http://localhost:8080/orders/{id}
+
+9. http://localhost:8080/products/{id}
+
+## <a name="license"></a> License
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
