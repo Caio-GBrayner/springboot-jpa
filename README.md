@@ -14,19 +14,21 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [About](#-about)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Contributing](#-contributing)
-  - [Connect with me on LinkedIn](#-connect-with-me-on-linkedin)
-  - [Fork and clone the repository](#-fork-and-clone-the-repository)
-  - [Project Structure](#-project-structure)
-- [Build from Source](#-build-from-source)
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+  - [Connect with me on LinkedIn](#connect-with-me-on-linkedin)
+  - [Fork and clone the repository](#fork-and-clone-the-repository)
+  - [Project Structure](#project-structure)
+- [Build from Source](#build-from-source)
   - [Prerequisites](#prerequisites)
   - [Install Spring Tool Suite](#install-spring-tool-suite)
   - [Install Java 21 LTS](#install-java-21-lts)
   - [Install Maven Dependencies](#install-maven-dependencies)
 - [Running](#running)
+- [Database Configuration](#database-configuration)
+- [API Usage Examples](#api-usage-examples)
 - [License](#license)
 
 ## About
@@ -95,8 +97,3 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/caiogomesbrayner).
 1. Run the following command in the project root:
 ```bash
 mvn clean install
-```
-
-## LICENSE
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
