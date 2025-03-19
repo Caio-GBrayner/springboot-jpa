@@ -6,7 +6,7 @@
     <strong>This software is a backend for managing users and products</strong>
 </p>
 
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](./docs/README.pt-BR.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](./docs/README.pt-br.md)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 
 </div>
