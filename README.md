@@ -95,3 +95,8 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/caiogomesbrayner).
 1. Run the following command in the project root:
 ```bash
 mvn clean install
+```
+
+## LICENSE
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
